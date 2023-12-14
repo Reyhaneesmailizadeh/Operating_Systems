@@ -1,0 +1,41 @@
+{
+"Tehran":{
+"id" : "1",
+"Day" : "Monday",
+"min_temp" : "16",
+"max_temp" : "26",
+"Status" : "clear"
+},
+
+"Isfahan":{
+"id" : "2",
+"Day" : "Monday",
+"min_temp" : "14",
+"max_temp" : "28",
+"Status" : "cloudy"
+},
+
+"Boushehr":{
+"id" : "3",
+"Day" : "Monday",
+"min_temp" : "25",
+"max_temp" : "50",
+"Status" : "sunny"
+},
+
+"Tabriz":{
+"id" : "4",
+"Day" : "Monday",
+"min_temp" : "10",
+"max_temp" : "24",
+"Status" : "partly cloudy"
+},
+
+"Ahvaz":{
+"id" : "5",
+"Day" : "Monday",
+"min_temp" : "28",
+"max_temp" : "55",
+"Status" : "sunny"
+}
+}
