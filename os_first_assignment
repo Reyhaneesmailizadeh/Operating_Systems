@@ -1,0 +1,28 @@
+Here is the translation of the homework to English:
+
+**Problem 1:**
+
+Write a program using the Multithreading method to extract weather information for Tehran, Isfahan, Bushehr, Tabriz, and Ahvaz in separate threads. For this implementation, consider the following points:
+
+- Consider a separate thread for each city to read weather information specific to that city onto its corresponding text string.
+- For the data section, you can use an API or a file. By 'file,' it means a list of JSONs representing city information, with a minimum of 5 examples created by yourself. For example, consider the following JSON for daily weather information in Tehran:
+```json
+"Tehran": {
+"id": "1",
+"Date": "1402-08-01",
+"Day": "Monday",
+"min-temp": "16",
+"max-temp": "26",
+"Status": "clear"
+}
+```
+- For this implementation on a UNIX-based system, you can use C or Python languages.
+
+**Problem 2:**
+
+Write a program where the parent process generates 4 child processes. Create 2 of these processes as zombies and the rest as orphans. Also, manage the orphan processes to ensure their completion. Consider the following points:
+
+- You are free to use either C or Python for writing the code. However, note that in both languages, you can only create child processes using the `fork()` command.
+- After creating each process, print corresponding statements appropriate for that process. For instance, for the first process and using Python, print statements like `.running is> PID_0Child <PID with 0 Child`.
+- Additionally, upon completion of the parent process, print `.terminated process Parent` or similar statement.
+
