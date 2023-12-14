@@ -1,0 +1,21 @@
+Problem 1:
+Write a program that simulates a web server using a thread pool. The program should receive requests from clients via a socket and process them by employing a fixed number of worker threads. Subsequently, it should return an appointment number to the client. The program should handle the following scenarios:
+
+If the request is valid, the worker thread must send a response containing the content of the requested file, or a 404 error if the file does not exist.
+If the request is invalid, the worker thread should respond with a 400 error.
+When the thread pool is full, the program should reject new requests with a 503 error.
+Upon receiving a SIGINT signal, the program must gracefully terminate all threads and close the socket.
+The program should utilize the following functions and data structures:
+
+"pthread create" and "pthread join" for thread creation and joining.
+Functions to synchronize access to a shared queue of requests.
+Utilization of socket, listen, accept, send, and receive to interact with clients.
+Using signal to register a handler for SIGINT.
+Problem 2:
+Create a program that computes the sum of the elements of a matrix using OpenMP. The program should accept two arguments: the name of a text file containing the matrix and the number of threads to utilize.
+
+The program should follow these steps:
+
+Read the matrix from the text file and store it in a 2D array.
+Utilize OpenMP directives and functions to parallelize the loop responsible for summing the elements of the array.
+Implement OpenMP reduction clause to aggregate the sum from each thread.
